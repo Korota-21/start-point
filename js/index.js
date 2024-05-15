@@ -8,7 +8,7 @@
      // Loop through each GIF file and create <img> elements
      gifFiles.forEach(function(fileName, index) {
          var imageIndex = index + 1;
-         html += '<img src="../media/' + fileName + '" alt="Image ' + imageIndex + '">';
+         html += '<img src="./media/' + fileName + '" alt="Image ' + imageIndex + '">';
      });
 
      // Set the generated HTML to the image container
