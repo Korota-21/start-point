@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white shadow-sm py-3 px-2">
         <div class="container-fluid">
             <!-- Brand -->
-            <a class="navbar-brand" routerLink="/">Start Point</a>
+            <!-- <a class="navbar-brand" routerLink="/">Start Point</a> -->
     
             <!-- Navbar toggler -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -33,19 +33,22 @@
                     <li class="nav-item"><a class="nav-link" href="./legs.html">ارجل</a></li>
                     <li class="nav-item"><a class="nav-link" href="./bi.html">باي</a></li>
                     <li class="nav-item"><a class="nav-link" href="./stretches.html">إطالات</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./back.html">ظهر</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./back.html">صدر</a></li>
-                </ul>
+                    <li class="nav-item"><a class="nav-link active" href="./back.html">ظهر</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./chest.html">صدر</a></li>
+                  </ul>
             </div>
         </div>
     </nav>
     
 <div class="image-list">
-    <h2 class="white pt-3">تمارين عضلة التراي</h2>
-    <img src="./media/tri-1.gif" alt="Image 1">
-    <img src="./media/tri-2.gif" alt="Image 2">
-    <img src="./media/tri-3.gif" alt="Image 1">
+    <h2 class="white pt-3">تمارين عضلات الظهر</h2>
+    <div id="image-container"></div>
+
   </div>
 </body>
+<script>
+  const gifFiles = ["back-1.gif", "back-2.gif", "back-3.gif", "back-4.gif", "back-5.gif"]; // Add more file names as needed
+</script>
+<script src="./index.js"></script>
 
 </html>
