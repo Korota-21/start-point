@@ -13,7 +13,7 @@ function setActiveLink() {
     var currentPath = window.location.pathname; // Get current page path
     var navLinks = document.querySelectorAll('.navbar-nav .nav-link'); // Select all navigation links
     navLinks.forEach(function (link) {
-        if (link.getAttribute('href') === currentPath) { // Check if link matches current path
+        if (link.getAttribute('href') === './'+currentPath) { // Check if link matches current path
             link.classList.add('active'); // Add active class to parent <li> element
         }
     });
